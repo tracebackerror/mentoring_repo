@@ -1,0 +1,171 @@
+<!DOCTYPE>
+<html lang="en-UK">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head><title>Html & css work</title>
+
+
+<style>
+   body{font-family:"Montserrat"}
+   .web_bar{
+   List-style-type:none;
+Background-color:white;
+Padding:20px;
+Margin:0px;
+Cursor:pointer;
+}
+.web_button{
+Color:black;
+Background-color:grey;
+Display:inline-block;
+Border:10px;
+Margin:10px;
+Padding:10px;
+Width:100%;
+Cursor:pointer;
+}
+.container{position:relative;
+width:350px;}
+.topleft{
+  position:absolute;
+  top:0px;
+  left:0px;
+  front-size:20px;
+  Color:white;
+  Background-color:black;
+  Padding:13px;
+}
+.div1{float:left;
+Margin:2px;}
+.pic{
+  width:350px;
+  Height:245px;}
+.inner{position:absolute; background-colour:black; top:50%;left:50%;}
+</style>
+
+
+
+</head>
+<body>
+
+                <!-- This is for bar on TOP-->
+
+<div>
+<ul>
+<li class="web_bar" style="float:left;"><a href="#BRarchitect"></a><b>B&nbspR<b>Architects</li>
+<li class="web_bar" style="float:right"><a href="#Projects"></a>Projects</li>
+<li class="web_bar" style="float:right"><a href="#About"></a>About</li>
+<li class="web_bar" style="float:right"><a href="#Contact"></a>Contact</li>
+</ul>
+</div>
+
+                <!--THIS IS FOR FIRST PICTURE-->
+<div>
+  <div>
+<img style="background-size:cover;"src="img_blog.jpeg",alt="glass building",width="150px",height="80px"><br><br>
+<h1 class="inner"><b style="background-color:grey;">BR</b>architects</h1>
+  </div>
+</div>
+                 <!--THIS IS FOR PROJECTS BLOCK-->
+
+<caption style="text-align:left;"><h2><b>Projects<b></h2></caption><hr><br>
+<div>
+   <div class="container div1">
+       <img class="pic" src="summer_house1.jpeg" alt="Summer House" > 
+   <div class="topleft">summer house</div></div>
+
+   <div class="container div1">
+       <img class="pic" src="Brick_house1.jpeg" alt="Brick House" >
+   <div class="topleft">Brick house</div></div>
+
+   <div class="container div1">  
+       <img class="pic" src="Renovated1.jpeg" alt="Renovated House" > 
+   <div class="topleft">Renovated</div></div>
+
+   <div class="container div1">
+       <img class="pic" src="Barn_house1.jpeg" alt="Barn House"> 
+   <div class="topleft">Barn house</div></div>
+</div>
+
+<div>  
+    <div class="container div1">
+       <img class="pic" src="summer_house2.jpeg" alt="Summer House" > 
+   <div class="topleft">summer house</div></div>
+   <div class="container div1">
+       <img class="pic" src="Brick_house2.jpeg" alt="Brick House" >
+   <div class="topleft">Brick house</div></div>
+   <div class="container div1">  
+       <img class="pic" src="Renovated2.jpeg" alt="Renovated House" > 
+   <div class="topleft">Renovated</div></div>
+   <div class="container div1">
+       <img class="pic" src="Barn_house2.jpeg" alt="Barn House"> 
+   <div class="topleft">Barn house</div></div><br><br><br>
+</div>
+                 <!--THIS IS FOR ABOUT BLOCK -->
+<div>
+<caption style="text-align:left;"><h2><b>About<b></h2></caption><hr>
+<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<div>
+     <div class="container div1">
+        <img class="pic" src="John Doe.jpeg" alt="John Doe" > 
+        <h3>John Doe</h3>
+        <p>CEO & Founder<br><br>Phasellus eget enim eu lectus faucibus vestibulum.<br>Suspendisse sodales pellentesque elementum.</p> 
+        <p><button class="web_button">Contact</button></p>
+     </div>
+     <div class="container div1">
+        <img class="pic" src="Jane Doe.jpeg" alt="Jane Doe" > 
+        <h3>Jane Doe</h3>
+        <p>Architect<br><br>Phasellus eget enim eu lectus faucibus vestibulum.<br>Suspendisse sodales pellentesque elementum.</p> 
+       <button class="web_button">Contact</button>
+   </div>
+    <div class="container div1">
+       <img class="pic" src="Mike Ross.jpeg" alt="Mike Ross" >
+       <h3>Mike Ross</h3>
+       <p>Architect<br><br>Phasellus eget enim eu lectus faucibus vestibulum.<br>Suspendisse sodales pellentesque elementum.</p> 
+       <button class="web_button">Contact</button>
+   </div>
+    <div class="container div1">
+      <img class="pic" src="Dan Star.jpeg" alt="Dan Star" > 
+      <h3>Dan Star</h3>
+      <p>Architect<br><br>Phasellus eget enim eu lectus faucibus vestibulum.<br>Suspendisse sodales pellentesque elementum.</p> 
+      <button class="web_button">Contact</button><br><br>
+    </div>
+
+</div>
+
+
+                <!--THIS IS FOR FORM-->
+
+
+<div>
+<caption style="text-align:left;"><h2><b>Contact<b></h2></caption>
+<hr>
+<p></h3>Let's get in touch and talk about your next project</h3></p>
+
+<form>
+    <label for="name">Name:</label><br>
+    <input style="width:100%;" type="text" id="name"><br>
+
+    <label for="Email">Email ID:</label><br>
+    <input style="width:100%;" type="text" id="EMail"><br>
+
+    <label for="number">Mobile:</label><br>
+    <input style="width:100%;" type="text" id="number"><br>
+
+    <label for="subject">Subject:</label><br>
+   <input style="width:100%;" type="text" id="subject"><br>
+
+   <label for="comment">Comment:</label><br>
+   <input  style="width:100%;" type="text" id="comment"><br><br>
+
+   <input style="width:15%; padding:10px;border:20px; margin:10px; background-color:black; color:white;" type="submit" value="Send Message"><br><br>
+
+</form>
+</div>
+
+               <!--THIS IS FOR MAP PICTURE-->
+<div>
+<img src="map.jpeg",alt="glass building",width="150px",height="80px".
+</div>
+</body>
+</html>
